@@ -7,7 +7,7 @@ Note that the package namespace remains `Laravel\Horizon`, so don't install it a
 1. Composer dependency manager:
 
 ```bash
-    composer require imanrjb/lumen-horizon
+    composer require imanrj/lumen-horizon
 ```
 
 2. Publish `horizon.php` file to the config folder:
