@@ -16,13 +16,6 @@ Note that the package namespace remains `Laravel\Horizon`, so don't install it a
     php artisan vendor:publish --tag=horizon-config
 ```
 
-or, as suggested in the official package docs:
-
-```bash
-    php artisan vendor:publish --provider="Laravel\Horizon\HorizonServiceProvider"
-```
-
-
 ## Official Documentation
 
 Documentation for Horizon can be found on the [Laravel website](http://laravel.com/docs/master/horizon).

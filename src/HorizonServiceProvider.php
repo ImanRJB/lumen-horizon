@@ -111,9 +111,13 @@ class HorizonServiceProvider extends ServiceProvider
      */
     protected function configure()
     {
-        $this->mergeConfigFrom(
-            __DIR__ . '/../config/horizon.php', 'horizon'
-        );
+        if (file_exists($this->app->basePath() . '/config/horizon.php')) {
+            $this->mergeConfigFrom($this->app->basePath() . '/config/horizon.php', 'horizon');
+        } else {
+            $this->mergeConfigFrom(
+                __DIR__ . '/../config/horizon.php', 'horizon'
+            );
+        }
 
         Horizon::use(config('horizon.use'));
     }
