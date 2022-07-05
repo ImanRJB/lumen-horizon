@@ -1,11 +1,11 @@
 {
-    "name": "imanrj/lumen-horizon",
+    "name": "imanrjb/lumen-horizon",
     "description": "Commands and code-driven configuration for Lumen queues.",
     "keywords": [],
     "license": "MIT",
     "authors": [
         {
-            "name": "Iman RJ",
+            "name": "Iman RJB",
             "email": "iman.rjb@gmail.com"
         }
     ],
